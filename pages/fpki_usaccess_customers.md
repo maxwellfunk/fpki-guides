@@ -28,7 +28,7 @@ The GSA HSPD-12 Managed Service Office established the [USAccess program](https:
 		<th class="title">Component</th> 
 		<th class="title">Acronym</th>
 		<th class="title">Shared Service Provider (SSP)</th>		
-		<th class="title">Subscriber Certificate Issuing CA</th>
+		<th class="title">Issuing CA</th>
 	</tr>
 
 {% for customer in site.data.customers %}  
