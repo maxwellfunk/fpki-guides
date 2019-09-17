@@ -4,7 +4,7 @@ permalink: /usaccess/
 layout: default
 ---
 
-The GSA HSPD-12 Managed Service Office established the [USAccess program](https://www.fedidcard.gov/){:target="_blank"} as an efficient way for Federal agencies to issue common HSPD-12 approved credentials to their employees and contractors. The list below presents USAccess program customer agencies and components, along with the name of the Certification Authority (CA) responsible for issuing their PIV credential certificates.
+The GSA HSPD-12 Managed Service Office established the [USAccess program](https://www.fedidcard.gov/){:target="_blank"} as an efficient way for Federal agencies to issue common HSPD-12 approved credentials to their employees and contractors. The list below presents USAccess program customer agencies and components, along with the name of the Certification Authority (CA) responsible for issuing subscriber certificates.
 
 {% include alert-info.html content="This table was last updated on <b>September 16, 2019</b>. If you'd like to suggest an update or correction, please email fpki@gsa.gov." %} 
 
@@ -28,7 +28,7 @@ The GSA HSPD-12 Managed Service Office established the [USAccess program](https:
 		<th class="title">Component</th> 
 		<th class="title">Acronym</th>
 		<th class="title">Shared Service Provider (SSP)</th>		
-		<th class="title">Issuing CA</th>
+		<th class="title">Subscriber Certificate Issuing CA</th>
 	</tr>
 
 {% for customer in site.data.customers %}  
