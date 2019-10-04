@@ -58,16 +58,7 @@ The CA certificates below have a corresponding private key that actively signs P
 - Validity: June 22, 2019 to June 22, 2029
 - SHA-1 Hash: 76cc898f03eb0fc7e0877aac30a0c1340bb34879
 
-#### Entrust Managed Services SSP CA 
-- Subject: OU = Entrust Managed Services SSP CA, OU = Certification Authorities, O = Entrust, C = US
-- Issuer: OU = Entrust Managed Services Root CA, OU = Certification Authorities, O = Entrust, C = US
-- Serial #: 448063d5 
-- Validity: July 30, 2015 to July 23, 2025 
-- SHA-1 Hash: dec01bf40c153fbc38bf2ca766b04f9dfbda3064 
-
-{% include alert-info.html content="The Entrust Managed Services SSP CA was re-keyed on August 13, 2019. Entrust will transition credential issuance to the new key corresponding with the certificate below on September 27, 2019, between 6 pm and 10 pm EDT." %} 
-
-#### Entrust Managed Services SSP CA (effective September 27, 2019)
+#### Entrust Managed Services SSP CA
 - Subject: OU = Entrust Managed Services SSP CA, OU = Certification Authorities, O = Entrust, C = US
 - Issuer: OU = Entrust Managed Services Root CA, OU = Certification Authorities, O = Entrust, C = US
 - Serial #: 448107b6
@@ -120,6 +111,13 @@ The CA certificates below have a corresponding private key that once, but no lon
 - Validity: August 28, 2012 to August 28, 2022 
 - SHA-1 Hash: 519d3222a15eee034980fc0da727314f70af78c0 
 
+#### Entrust Managed Services SSP CA 
+- Subject: OU = Entrust Managed Services SSP CA, OU = Certification Authorities, O = Entrust, C = US
+- Issuer: OU = Entrust Managed Services Root CA, OU = Certification Authorities, O = Entrust, C = US
+- Serial #: 448063d5 
+- Validity: July 30, 2015 to July 23, 2025 
+- SHA-1 Hash: dec01bf40c153fbc38bf2ca766b04f9dfbda3064 
+
 #### OCIO CA (1 of 3)
 - Subject: OU = OCIO CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Issuer: OU = US Treasury Root CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
@@ -140,3 +138,4 @@ The CA certificates below have a corresponding private key that once, but no lon
 - Serial #: 4a61d147 
 - Validity: September 12, 2010 to September 12, 2020
 - SHA-1 Hash: f9299790eb271125fd91e661cede4ee202d7e758 
+
