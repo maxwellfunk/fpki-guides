@@ -930,7 +930,7 @@
  agency: Environmental Protection Agency
  component: N/A
  acronym: EPA
- ssp: ORC SSP and Entrust SSP 
+ ssp: WidePoint SSP and Entrust SSP 
  ca: <a href="#orc-ssp-4">ORC SSP 4</a> and <a href="#entrust-managed-services-ssp-ca">Entrust Managed Services SSP CA</a>
 - 
  branch: Executive
@@ -993,7 +993,7 @@
  agency: Federal Election Commission
  component: N/A
  acronym: FEC
- ssp: ORC SSP 
+ ssp: WidePoint SSP 
  ca: <a href="#orc-ssp-4">ORC SSP 4</a>
 - 
  branch: Executive
@@ -1063,7 +1063,7 @@
  agency: Federal Trade Commission
  component: N/A
  acronym: FTC
- ssp: Entrust Federal SSP & ORC SSP
+ ssp: Entrust Federal SSP & WidePoint SSP
  ca: <a href="#entrust-managed-services-ssp-ca">Entrust Managed Services SSP CA</a> and <a href="#orc-ssp-4">ORC SSP 4</a> 
 - 
  branch: Executive
