@@ -366,7 +366,7 @@
 - notice_date: June 13, 2018
   change_type: CA Certificate Issuance Intent
   system: CertiPath Bridge
-  change_description: CerithPath Bridge intends to renew the cross certificates from the CertiPath Bridge G1 and G2 to Raytheon prior to the end of this month. No changes are being made to certificate policies or policy mappings.
+  change_description: CerithPath Bridge intends to renew the cross-certificates from the CertiPath Bridge G1 and G2 to Raytheon prior to the end of this month. No changes are being made to certificate policies or policy mappings.
   contact: support at certipath dot com
 
 - notice_date: July 5, 2018
@@ -1350,6 +1350,72 @@
   aia_uri: http://http.fpki.gov/fcpca/caCertsIssuedTofcpca.p7c
   sia_uri: http://pki.treasury.gov/root_sia.p7c
   ocsp_uri:   
+
+- notice_date: September 3, 2019
+  change_type: Intent to Perform CA Certificate Revocation
+  end_datetime:
+  system: GSA ACES and Federal Bridge CA 2016
+  change_description: WidePoint has decommissioned the ORC ACES 4 CA. The FPKIMA intends to revoke the certificate issued from the Federal Bridge CA to the ORC ACES 4 CA.
+  contact: fpki dash help at gsa dot gov
+  ca_certificate_hash: 5573FCC5E6FFFF2B710181ACCAA2EFDADB8F0F4E
+  ca_certificate_issuer: CN=Federal Bridge CA 2016, OU=FPKI, O=U.S. Government, C=US
+  ca_certificate_subject: CN=ORC ACES 4, O=ORC PKI, C=US
+
+- notice_date: September 30, 2019
+  change_type: CA Certificate Revocation
+  end_datetime:
+  system: Federal Bridge CA 2016
+  change_description: The FPKIMA revoked the certificate issued from the Federal Bridge CA 2016 to the decommissioned ORC ACES 4 CA.
+  contact: fpki dash help at gsa dot gov
+  ca_certificate_hash: 5573FCC5E6FFFF2B710181ACCAA2EFDADB8F0F4E
+  ca_certificate_issuer: CN=Federal Bridge CA 2016, OU=FPKI, O=U.S. Government, C=US
+  ca_certificate_subject: CN=ORC ACES 4, O=ORC PKI, C=US
+  cdp_uri: http://http.fpki.gov/bridge/fbca2016.crl
+  aia_uri: http://http.fpki.gov/bridge/caCertsIssuedTofbca2016.p7c
+  sia_uri: http://crl-server.orc.com/caCerts/ORCACES4_SIA.p7c
+  ocsp_uri:
+  
+- notice_date: September 30, 2019
+  change_type: Intent to Perform CA Certificate Issuance
+  start_datetime:  
+  system: FPKI Trust Infrastructure - Federal Common Policy CA
+  change_description: The FPKIMA intends to issue a certificate from the Federal Common Policy CA to the planned Federal Bridge CA 2019 toward the end of October. CAs with valid certificates issued by the Federal Bridge CA 2016 will be migrated to the Federal Bridge CA 2019, allowing for the Federal Bridge CA 2016 to be decommissioned.
+  contact: fpki dash help at gsa dot gov
+  ca_certificate_hash:  
+  ca_certificate_issuer: CN = Federal Common Policy CA, OU = FPKI, O = U.S. Government, C = US
+  ca_certificate_subject: CN=Federal Bridge CA 2019, OU=FPKI, O=U.S. Government, C=US
+  cdp_uri:  
+  aia_uri: 
+  sia_uri:  
+  ocsp_uri:
+  
+- notice_date: October 28, 2019
+  change_type: CA Certificate Issuance
+  start_datetime: October 28, 2019
+  end_datetime: October 28, 2020
+  system: FPKI Trust Infrastructure - Federal Common Policy CA
+  change_description: The Federal Common Policy CA issued a cross-certificate to the Federal Bridge CA 2016. The certificate has a validity period of one year.
+  contact: fpki dash help at gsa dot gov
+  ca_certificate_hash: bd38b7e253cfc5dd278a927f88833fb44c6af03a
+  ca_certificate_issuer: Federal Common Policy CA
+  ca_certificate_subject: Federal Bridge CA 2016
+  cdp_uri: http://http.fpki.gov/fcpca/fcpca.crl
+  aia_uri: http://http.fpki.gov/fcpca/caCertsIssuedTofcpca.p7c
+  sia_uri: http://http.fpki.gov/bridge/caCertsIssuedByfbca2016.p7c
+
+- notice_date: October 28, 2019
+  change_type: CA Certificate Issuance
+  start_datetime: October 28, 2019
+  end_datetime: October 28, 2020
+  system: FPKI Trust Infrastructure - Federal Bridge CA 2016
+  change_description: The Federal Bridge CA 2016 issued a cross-certificate to the Federal Common Policy CA. The certificate has a validity period of one year.
+  contact: fpki dash help at gsa dot gov
+  ca_certificate_hash: 38341412caa3d72ade61022240411444d21b1de9
+  ca_certificate_issuer: Federal Bridge CA 2016
+  ca_certificate_subject: Federal Common Policy CA
+  cdp_uri: http://http.fpki.gov/bridge/fbca2016.crl
+  aia_uri: http://http.fpki.gov/bridge/caCertsIssuedTofbca2016.p7c
+  sia_uri: http://http.fpki.gov/fcpca/caCertsIssuedByfcpca.p7c
 
 
 #- notice_date:  
