@@ -4,7 +4,7 @@ permalink: /pivIssuers/
 layout: default
 ---
 
-The table below lists the Personal Identity Verification (PIV) credential service providers for federal agencies. Agency administrators can leverage this list to configure systems and services for cross-government trust.  
+The table below lists the Personal Identity Verification (PIV) credential service providers for federal agencies. Agency administrators can leverage this list to configure systems and services for cross-government trust. This list does *not* include issuers of Derived PIV credential certicates. 
 
 {% include alert-info.html content="This table was last updated on <b>December 11, 2019</b>. If you'd like to suggest an update or correction, please email fpki@gsa.gov." %} 
 
@@ -65,7 +65,7 @@ The CA certificates below have a corresponding private key that actively signs P
 - Validity: August 13, 2019 to July 13, 2029
 - SHA-1 Hash: 722e8abbe6b66e47d1bcec3c7ec47aa5bbe4d3c5
 
-#### OCIO CA
+#### Treasury OCIO CA
 - Subject: OU = OCIO CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Issuer: OU = US Treasury Root CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Serial #: 5ccb31fe
@@ -118,21 +118,21 @@ The CA certificates below have a corresponding private key that once, but no lon
 - Validity: July 30, 2015 to July 23, 2025 
 - SHA-1 Hash: dec01bf40c153fbc38bf2ca766b04f9dfbda3064 
 
-#### OCIO CA (1 of 3)
+#### Treasury OCIO CA (1 of 3)
 - Subject: OU = OCIO CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Issuer: OU = US Treasury Root CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Serial #: 4e398101 
 - Validity: April 19, 2015 to April 19, 2025 
 - SHA-1 Hash: 5ad254c3ecebb5b7e108caa0cc8030598a7b7709 
 
-#### OCIO CA (2 of 3)
+#### Treasury OCIO CA (2 of 3)
 - Subject: OU = OCIO CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Issuer: OU = US Treasury Root CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Serial #: 4a61d192 
 - Validity: November 7, 2010 to November 7, 2020 
 - SHA-1 Hash: 918a68d87fb6011afe3666076319ed0462df0940 
 
-#### OCIO CA (3 of 3)
+#### Treasury OCIO CA (3 of 3)
 - Subject: OU = OCIO CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Issuer: OU = US Treasury Root CA, OU = Certification Authorities, OU = Department of the Treasury, O = U.S. Government, C = US
 - Serial #: 4a61d147 
