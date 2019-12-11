@@ -1,12 +1,12 @@
 ---
-title: USAccess Customer Agencies
-permalink: /usaccess/
+title: Federal PKI PIV Issuers and Customer Agencies
+permalink: /pivIssuers/
 layout: default
 ---
 
-The GSA HSPD-12 Managed Service Office established the [USAccess program](https://www.fedidcard.gov/){:target="_blank"} as an efficient way for Federal agencies to issue common HSPD-12 approved credentials to their employees and contractors. The list below presents USAccess program customer agencies and components, along with the name of the Certification Authority (CA) responsible for issuing PIV authentication certificates.
+The table below lists the Personal Identity Verification (PIV) credential service providers for federal agencies. Agency administrators can leverage this list to configure systems and services for cross-government trust.  
 
-{% include alert-info.html content="This table was last updated on <b>September 16, 2019</b>. If you'd like to suggest an update or correction, please email fpki@gsa.gov." %} 
+{% include alert-info.html content="This table was last updated on <b>December 11, 2019</b>. If you'd like to suggest an update or correction, please email fpki@gsa.gov." %} 
 
 <style>
 	.title {font-size: 16px; color: white; background-color: #112e51; font-weight: 900;text-align: center;}
